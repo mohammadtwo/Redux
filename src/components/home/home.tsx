@@ -8,7 +8,7 @@ export function Home() {
     const counter = useAppSelector((state) => state.counter);
     const dispatch=useAppDispatch()
   return (
-    <div className="w-full h-screen bg-pink-200 gap-10 grid place-items-center">
+    <div className="w-full h-screen bg-purple-500 gap-10 grid place-items-center">
       <h1 className="text-5xl">{counter.value}</h1>
       <input
         value={state}
